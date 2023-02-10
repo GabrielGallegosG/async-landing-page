@@ -1,0 +1,20 @@
+{
+  "name": "async-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page que obtiene videos de la API de youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielGallegosG/async-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielGallegosG/async-landing-page/issues"
+  },
+  "homepage": "https://github.com/GabrielGallegosG/async-landing-page#readme"
+}
