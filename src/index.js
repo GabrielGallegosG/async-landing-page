@@ -1,13 +1,12 @@
-const API =
-  "https://youtube138.p.rapidapi.com/channel/videos/?id=UCv1DvRY5PyHHt3KN9ghunuw&filter=videos_latest&hl=en&gl=US";
+const API = process.env.API;
 
 const content = null || document.getElementById("content");
 
 const options = {
   method: "GET",
   headers: {
-    "X-RapidAPI-Key": "4934c24653msh4e9e6ec4021d3b3p136dddjsn3f0411ace57c",
-    "X-RapidAPI-Host": "youtube138.p.rapidapi.com",
+    "X-RapidAPI-Key": process.env.API_KEY,
+    "X-RapidAPI-Host": process.env.API_HOST,
   },
 };
 
